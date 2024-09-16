@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       {!nonNavbarRoutes.includes(location.pathname) && <Navbar />}
+      <h1>Hello</h1>
       <AppRouter/>
     </>
   );
